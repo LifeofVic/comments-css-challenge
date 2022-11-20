@@ -1,0 +1,72 @@
+body {
+	/* or */
+	background-color: white;
+	font-family: 'Rubik', sans-serif;
+}
+
+.vote-btn {
+	float: left;
+	display: block;
+	border: 2px solid (240, 57%, 93%);
+	width: 20px;
+	background-color: hsl(240, 57%, 93%);
+	border-radius: 10px;
+	padding: 5px;
+	margin: 4px 8px 2px 0px;
+}
+
+#down-vote,
+#up-vote {
+	display: inline-block;
+	margin: 1px;
+	padding: 2px 0px 0px 4px;
+	background-color: hsl(240, 57%, 93%);
+	border: hsl(240, 57%, 93%);
+	color: hsl(211, 10%, 45%);
+}
+
+.vote-btn {
+	display: flex;
+	flex-direction: column;
+}
+
+#down-vote {
+	padding-left: 6px;
+}
+
+span {
+	color: hsl(228, 45%, 44%);
+	margin: 2px;
+}
+
+button {
+	cursor: pointer;
+}
+
+.flex-box {
+	border: solid;
+	flex-direction: row;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 15px;
+	align-items: center;
+	background-color: brown;
+}
+
+.user-img {
+	float: left;
+}
+
+#username {
+	float: left;
+}
+
+
+
+.flex-box {
+	border: solid;
+	flex: row;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 15px;
+}
