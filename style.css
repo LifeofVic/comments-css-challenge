@@ -1,10 +1,11 @@
 body {
 	/* or */
-	background-color: white;
+	background-color: rgb(218, 223, 239);
 	font-family: 'Rubik', sans-serif;
 }
 
 .vote-btn {
+	align-items: center;
 	float: left;
 	display: block;
 	border: 2px solid (240, 57%, 93%);
@@ -18,7 +19,6 @@ body {
 #down-vote,
 #up-vote {
 	display: inline-block;
-	margin: 1px;
 	padding: 2px 0px 0px 4px;
 	background-color: hsl(240, 57%, 93%);
 	border: hsl(240, 57%, 93%);
@@ -50,7 +50,7 @@ button {
 	padding: 20px;
 	border-radius: 15px;
 	align-items: center;
-	background-color:blue;
+	background-color: rgb(240, 240, 247);
 }
 
 .user-img {
